@@ -1,8 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image"
- 
-import { AspectRatio } from "@/components/ui/aspect-ratio"
- 
+ import Modal from "../ui/notification";
 
 const Hero = () => {
   return (
@@ -10,6 +8,7 @@ const Hero = () => {
       className="relative  bg-cover bg-center bg-no-repeat h-screen flex items-center justify-center"
       style={{ backgroundImage: "url('../../app/image.png')" }}
     >
+      <Modal/>
       <div className="absolute inset-0 bg-white bg-opacity-60"></div>
 
       <div className="relative z-10 text-center max-w-4xl mx-auto p-6">

@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import Logo from '../public/GDSC-RCIIT Logo.png'
+import Logo from '../app/images/GDSC-RCIIT Logo.png'
 import Image from 'next/image';
 
 const NotFound = () => {
